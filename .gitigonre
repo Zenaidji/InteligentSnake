@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Généralement, on ne tracke pas directement le package express lui-même,
+# car il est installé dans node_modules. Si tu as créé un dossier
+# nommé "express" à la racine de ton projet pour une raison spécifique
+# et que tu souhaites l'ignorer, alors la ligne ci-dessous est pertinente.
+# Sinon, tu peux la supprimer en toute sécurité.
+# express/
+
+# Autres fichiers/dossiers temporaires ou spécifiques à l'environnement
+.env
+config/local.json
+tmp/
+temp/
+logs/
+pids/
+*.swp
+*.swo
+.DS_Store
