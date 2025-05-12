@@ -1,8 +1,19 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-a {
-  color: #00B7FF;
+#canvas {
+  background-color: #ffffff;
+  border: 3px solid #333333;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-image: url("../images/board.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -14,7 +14,6 @@ yarn-error.log*
 # et que tu souhaites l'ignorer, alors la ligne ci-dessous est pertinente.
 # Sinon, tu peux la supprimer en toute sécurité.
 # express/
-
 # Autres fichiers/dossiers temporaires ou spécifiques à l'environnement
 .env
 config/local.json
